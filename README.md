@@ -5,7 +5,7 @@ This repository contains an end-to-end UI Test Automation Framework built using 
 📌 Project Overview
 
 The framework is designed to automate web application testing with:
-
+```
 Clean and maintainable structure
 Reusable components
 Scalable test design
@@ -17,6 +17,8 @@ Test Framework: PyTest
 Design Pattern: Page Object Model (POM)
 Data Handling: Excel (pandas / openpyxl)
 Version Control: Git & GitHub
+```
+```
 📁 Project Structure
 Cnarios-Test_Automation/
 │
@@ -24,10 +26,11 @@ Cnarios-Test_Automation/
 ├── pages/                 # Page Object classes
 ├── utilities/             # Utility functions (Excel, config, etc.)
 ├── test_data/             # Excel files for data-driven testing
-├── drivers/               # WebDriver binaries
 ├── conftest.py            # PyTest fixtures
 ├── requirements.txt       # Dependencies
 └── README.md
+```
+```
 ✅ Features
 ✔ Page Object Model (POM) implementation
 ✔ Data-driven testing using Excel
@@ -37,6 +40,7 @@ Cnarios-Test_Automation/
 ✔ File upload automation
 ✔ Frame handling and keyboard actions
 ✔ Clean and modular test structure
+```
 ▶️ Setup Instructions
 1. Clone the Repository
 git clone https://github.com/avinashu199/Cnarios-Test_Automation.git
@@ -57,13 +61,15 @@ File upload paths
 Payment details
 
 This enables data-driven testing for better coverage and flexibility.
-
+```
 🧪 Sample Test Scenarios
 ✅ File Upload functionality
 ✅ Payment form validation
 ✅ Checkbox interactions
 ✅ Frame switching
 ✅ Keyboard actions (Ctrl, Enter, etc.)
+```
+```
 🔥 Best Practices Followed
 Separation of concerns (Test vs Page vs Utility)
 Reusable locators and methods
@@ -74,7 +80,7 @@ Scalable framework design
 Allure / Extent Reports integration
 CI/CD integration (GitHub Actions / Jenkins)
 API testing integration
-
+```
 👨‍💻 Author
 
 Avinash Uppalapati
